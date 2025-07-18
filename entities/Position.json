@@ -1,0 +1,65 @@
+{
+  "name": "Position",
+  "type": "object",
+  "properties": {
+    "symbol": {
+      "type": "string",
+      "description": "Trading pair symbol (e.g., BTC-PERP)"
+    },
+    "side": {
+      "type": "string",
+      "enum": [
+        "LONG",
+        "SHORT"
+      ],
+      "description": "Position direction"
+    },
+    "size": {
+      "type": "number",
+      "description": "Position size"
+    },
+    "entry_price": {
+      "type": "number",
+      "description": "Average entry price"
+    },
+    "mark_price": {
+      "type": "number",
+      "description": "Current mark price"
+    },
+    "liquidation_price": {
+      "type": "number",
+      "description": "Estimated liquidation price"
+    },
+    "total_value": {
+      "type": "number",
+      "description": "Total value of the position in USD"
+    },
+    "unrealized_pnl": {
+      "type": "number",
+      "description": "Unrealized profit/loss"
+    },
+    "unrealized_pnl_percent": {
+      "type": "number",
+      "description": "Unrealized PnL percentage"
+    },
+    "leverage": {
+      "type": "number",
+      "description": "Position leverage"
+    },
+    "margin": {
+      "type": "number",
+      "description": "Position margin"
+    },
+    "last_price": {
+      "type": "number",
+      "description": "Last traded price"
+    }
+  },
+  "required": [
+    "symbol",
+    "side",
+    "size",
+    "entry_price",
+    "mark_price"
+  ]
+}
