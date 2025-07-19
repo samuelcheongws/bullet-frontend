@@ -2,7 +2,11 @@
 
 A modern, mobile-first React Native application designed for managing trading portfolios and orders. Built with a modular UI architecture, this app prioritizes performance, usability, and a seamless user experience that is proudly vibecoded by yours truly. 
 
-<video src='bullet-video.mp4' width=180/>
+
+
+https://github.com/user-attachments/assets/44694ccf-0eac-4770-abf4-51fb7cb16d14
+
+
 
 ## Features
 
